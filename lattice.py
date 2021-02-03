@@ -15,7 +15,7 @@ from scipy.signal import fftconvolve
 from sympy import pprint
 from sympy.abc import x,y,z
 # from __future__ import print_function, division
-from sympy.core.compatibility import range
+# from sympy.core.compatibility import range
 from sympy.ntheory import nextprime
 from Crypto.Util import number
 from Crypto.Hash import SHA256
