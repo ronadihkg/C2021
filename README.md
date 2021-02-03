@@ -2,4 +2,6 @@
 
 For conference submission.
 
-(Corrected bugs casued by library update in Crypto and sympy)
+(Compatiability issue:
+1. comment out line 18 of Lattice.py in case of error in newer version of sympy
+2. line 14 ecc.py: uninstalling Crypto and installing Cryptodome in case of error)
